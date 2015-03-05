@@ -9,10 +9,12 @@ GEM
   remote: https://rubygems.org/
   specs:
     log4r (1.1.10)
-    mini_portile (0.6.0)
-    netrc (0.8.0)
-    nokogiri (1.6.3.1-x86-mingw32)
-      mini_portile (= 0.6.0)
+    mini_portile (0.6.2)
+    netrc (0.10.3)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    nokogiri (1.6.6.2-x86-mingw32)
+      mini_portile (~> 0.6.0)
     proxies (0.2.1)
     right_aws (3.1.0)
       right_http_connection (>= 1.2.5)
@@ -23,9 +25,10 @@ GEM
     ruby-hmac (0.4.0)
     s3 (0.3.21)
       proxies (~> 0.2.0)
-    trollop (2.0)
+    trollop (2.1.1)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
